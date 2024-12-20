@@ -22,6 +22,10 @@ To enhance predictive accuracy and reduce RMSE, the recommendation system was tr
 
 These enhancements resulted in a significant reduction in RMSE, achieving a score of approximately **0.97768**, underscoring the model's improved performance.
 
+### Download Dataset
+
+The datasets for this project can be downloaded from the [GitHub Release](https://github.com/kumajimmy/xgboost_business_user/releases/tag/v1.0).
+
 ---
 
 ## Table of Contents
