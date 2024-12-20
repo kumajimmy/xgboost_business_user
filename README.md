@@ -150,7 +150,8 @@ For convenience, you can add these exports to your shell configuration file (e.g
 2. Run the main script:
 
    ```bash
-  ./spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G xgboost_rec_yelp.py <folder_path> <test_file_name> <output_file_name>   ```
+  ./spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G xgboost_rec_yelp.py <folder_path> <test_file_name> <output_file_name>
+  ```
   Param: folder_path: the path of dataset folder (yelp_challenge_dataset)
   Param: test_file_name: the name of the testing file (e.g., yelp_val.csv), including the file path
   Param: output_file_name: the name of the prediction result file in csv form, including the file path
